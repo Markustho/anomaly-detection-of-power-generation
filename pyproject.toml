@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "poetry package"
+version = "0.1.0"
+description = "Contains dependency versions for this project"
+authors = ["Markustho <161824@stud.hvl.no>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
